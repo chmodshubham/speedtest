@@ -2,7 +2,7 @@
 
 ## Uninstall non-official binaries
 
-If migrating from prior bintray install instructions please first...
+If migrating from prior Bintray install instructions please first,
 
 ```bash
 sudo rm /etc/apt/sources.list.d/speedtest.list
@@ -10,9 +10,10 @@ sudo apt-get update
 sudo apt-get remove speedtest
 ```
 
+Other non-official binaries will conflict with Speedtest CLI.
+Example of how to remove using `apt-get`:
+
 ```bash
-## Other non-official binaries will conflict with Speedtest CLI
-# Example how to remove using apt-get
 sudo apt-get remove speedtest-cli
 ```
 
@@ -24,7 +25,7 @@ curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.
 sudo apt-get install speedtest
 ```
 
-## Automate speedtest through shell script
+## Automate speedtest through the shell script
 
 A shell script that continuously runs the `speedtest` command and restarts itself if it encounters any error.
 
