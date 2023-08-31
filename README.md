@@ -31,6 +31,7 @@ A shell script that continuously runs the `speedtest` command and restarts itsel
 
 ```bash
 git clone https://github.com/chmodshubham/speedtest
+cd speedtest/
 chmod +x run_speedtest.sh
 ./run_speedtest.sh
 ```
