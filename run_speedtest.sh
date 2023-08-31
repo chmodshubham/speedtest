@@ -13,7 +13,7 @@ run_script() {
         fi
 
         # Sleep for a while before the next iteration (optional)
-        sleep 10
+        sleep 2
     done
 }
 
